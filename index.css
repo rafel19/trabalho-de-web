@@ -1,0 +1,53 @@
+*{
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(15, 15, 231);
+    justify-content: baseline;
+}
+
+img#hero{
+    width: 200px;
+    border-radius: 100%;
+    margin: 5px 90px 5px 90px;
+}
+
+h1#hero{
+    color: rgb(242, 242, 250);
+    font-size: 100px;
+}
+
+body{
+    background-color: rgb(131, 131, 151);
+    display: inline;
+}
+
+img#rock{
+    width: 400px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li{
+    font-size: 30px;
+    text-decoration: none;
+    color: antiquewhite;
+    width: 100%;
+}
+
+li a{
+    color: red
+}
+
+li a:hover{
+    color: black;
+}
